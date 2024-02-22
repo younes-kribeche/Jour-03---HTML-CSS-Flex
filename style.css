@@ -1,0 +1,107 @@
+/*Police écriture titre*/
+.lobster-two-bold {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*Police écriture texte*/
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    font-family: "lora";
+    background-color: #82846D;
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+}
+
+input{
+    height: 30px;
+    border-radius: 20px;
+}
+ 
+
+main{
+    background-color: #DDFCAD;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Lobster two"; 
+    font-size: 100px;
+}
+
+.speech{
+    text-align: justify;
+    color: #646165;
+    display: flex;
+    font-family: "lora";
+    ;
+}
+
+hr{
+    height: 2px;
+    width: 95%;
+    background-color: #95A472;
+}
+
+ul{
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.photosfleurs{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photosfleurs img{
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border: thick double rgb(255, 255, 255);
+}
+
+.entete{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    font-family: "lora";
+    font-size: 16px;
+}
+.services{
+    text-align: justify;
+    color: #646165;
+    font-family: "lora";
+    display: flex;
+    gap: 30px;
+}
+
+.services img{
+    object-fit: cover;
+    height: 20px;
+    width: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+    background-color:#82846D;
+}
